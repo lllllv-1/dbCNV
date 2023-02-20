@@ -8,7 +8,7 @@ git clone https://github.com/kbvstmd/XCNV.git
 ```
 
 # 4. Usage and example
-Usage:
+#Usage:
 
 ```
 perl dbCNV.pl -i prefix.txt -n 2
@@ -21,7 +21,7 @@ perl dbCNV.pl -i prefix.txt -n 5
  
  -h HELP    help information
  
-Example:
+#Example:
 
 ```
 perl dbCNV.pl -i example.txt -n 2
@@ -29,7 +29,7 @@ perl dbCNV.pl -i example.txt -n 2
 
 The results can be seen in the gain_2_predication_result.txt and loss_2_predication_result.txt.
  
-# 5. 5. Input & output
+# 5. Input & output
 Input file format (The columns are separated by TAB key and the header is required):
 
 chr13 48611882  49054207	gain
