@@ -1,0 +1,3 @@
+Chr	Start	End	Type	Disease
+chr1	243493821	243494014	loss	pathogenic
+chr2	35976307	36000775	loss	benign

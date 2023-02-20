@@ -1,0 +1,8 @@
+Chr	Start	End	Type	Disease
+chr13	48611882	49054207	gain	uncertain significance
+chr5	176168645	176292484	gain	benign
+chr10	55849734	55996701	gain	uncertain significance
+chr12	132963880	132965601	gain	benign
+chr13	114527073	114527608	gain	benign
+chr5	81421525	81429563	gain	benign
+chrX	132887489	132888223	gain	benign
