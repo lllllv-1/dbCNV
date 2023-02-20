@@ -16,11 +16,14 @@ perl dbCNV.pl -i prefix.txt -n 2
 perl dbCNV.pl -i prefix.txt -n 5
 ```
 
- -i FILE    CNV region file (Chr Start End Tye)
- 
- -n number  the number of pathogenic classification  (2 or 5)
- 
- -h HELP    help information
+  -i File    CNV region file (Chr Start End Type)
+  
+  -n Number  the number of disease type (2 or 5)
+  
+  -r File    the file of Rscript path
+  
+  -h Help    help information
+
  
 # Example:
 
