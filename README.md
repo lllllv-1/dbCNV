@@ -34,7 +34,8 @@ perl dbCNV.pl -i example.txt -n 2 -r /usr/bin/Rscript
 The results can be seen in the gain_2_predication_result.txt and loss_2_predication_result.txt.
  
 # 5. Input & output
-Input file format (The columns are separated by TAB key and the header is required):
+Input file format (the header is required):
+Chr Start End Type
 
 chr13 48611882  49054207	gain
 
