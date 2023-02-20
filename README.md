@@ -8,7 +8,7 @@ git clone https://github.com/kbvstmd/XCNV.git
 ```
 
 # 4. Usage and example
-#Usage:
+# Usage:
 
 ```
 perl dbCNV.pl -i prefix.txt -n 2
@@ -21,7 +21,7 @@ perl dbCNV.pl -i prefix.txt -n 5
  
  -h HELP    help information
  
-#Example:
+# Example:
 
 ```
 perl dbCNV.pl -i example.txt -n 2
