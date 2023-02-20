@@ -5,7 +5,7 @@ The local version dbCNV requires Linux (version: 3.10.0-514.el7.x86_64) environm
 # 3. Installation
 
 ```
-git clone https://github.com/kbvstmd/XCNV.git
+git clone https://github.com/lllllv-1/dbCNV
 ```
 
 # 4. Usage and example
