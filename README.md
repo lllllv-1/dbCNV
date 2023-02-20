@@ -35,6 +35,7 @@ The results can be seen in the gain_2_predication_result.txt and loss_2_predicat
  
 # 5. Input & output
 Input file format (the header is required):
+
 Chr Start End Type
 
 chr13 48611882  49054207	gain
@@ -48,3 +49,7 @@ Column 3: End
 Column 4: CNV type (gain or loss)
 
 The output file has 5 columns including chromosome, Start, End, CNV type and pathogenicity of CNV.
+
+Chr     Start   End     Type    Disease
+
+chr13 48611882  49054207	gain  benign
