@@ -38,7 +38,7 @@ Input file format (the header is required):
 
 Chr Start End Type
 
-chr13 48611882  49054207	gain
+chr10	260000	700000	gain
 
 Column 1: The chromosome
 
@@ -52,4 +52,4 @@ The output file has 5 columns including chromosome, Start, End, CNV type and pat
 
 Chr     Start   End     Type    Disease
 
-chr13 48611882  49054207	gain  benign
+chr10	260000	700000	gain  benign
