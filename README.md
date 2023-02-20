@@ -12,8 +12,8 @@ git clone https://github.com/lllllv-1/dbCNV
 # Usage:
 
 ```
-perl dbCNV.pl -i prefix.txt -n 2
-perl dbCNV.pl -i prefix.txt -n 5
+perl dbCNV.pl -i prefix.txt -n 2 -r /usr/bin/Rscript
+perl dbCNV.pl -i prefix.txt -n 5 -r /usr/bin/Rscript
 ```
 
   -i File    CNV region file (Chr Start End Type)
@@ -28,7 +28,7 @@ perl dbCNV.pl -i prefix.txt -n 5
 # Example:
 
 ```
-perl dbCNV.pl -i example.txt -n 2
+perl dbCNV.pl -i example.txt -n 2 -r /usr/bin/Rscript
 ```
 
 The results can be seen in the gain_2_predication_result.txt and loss_2_predication_result.txt.
