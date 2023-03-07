@@ -1,7 +1,7 @@
 # 1. Introduction
 dbCNV is a tool to predict the pathogenicity for five-tier classification and binary classification of CNVs based on the deleterious significance of features. The quantitative evaluation of features was based on their pathogenicity levels in CNVs of different classifications.  According to the deleterious significance, we formulated quantitative methods for features, which fall into two categories: the first is variable type, including maximum, minimum and mean; the second is attribute type, which is measured by numerical sum. The reference genome version used by dbCNV is GRCh37/hg19.
 # 2. Requirements
-The local version dbCNV requires Linux (version: 3.10.0-514.el7.x86_64) environment, perl language (version:5.28.3) and R language (version: 3.6.0). The local version dbCNV requires four perl packages (List::Util qw/sum min max/, List::MoreUtils qw/uniq/, Statistics::Sequences::Runs 0.10, Statistics::Distributions;) and five R packages (xgboost, caret, ggplot2, lattice, Matrix). This pipeline runs dbCNV.pl in the same directory as Database.
+The local version dbCNV requires Linux (version: 3.10.0-514.el7.x86_64) environment, perl language (version:5.28.3) and R language (version: 3.6.0). Four perl packages (List::Util qw/sum min max/, List::MoreUtils qw/uniq/, Statistics::Sequences::Runs 0.10, Statistics::Distributions) and five R packages (xgboost, caret, ggplot2, lattice, Matrix). This pipeline runs dbCNV.pl in the same directory as Database.
 # 3. Installation
 
 ```
